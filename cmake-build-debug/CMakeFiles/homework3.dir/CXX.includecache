@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/79625/CLionProjects/homework3/include/header.h
+iostream
+-
+
+C:/Users/79625/CLionProjects/homework3/sources/expr.cpp
+../include/header.h
+C:/Users/79625/CLionProjects/homework3/include/header.h
+
+C:/Users/79625/CLionProjects/homework3/sources/factor.cpp
+../include/header.h
+C:/Users/79625/CLionProjects/homework3/include/header.h
+
+C:/Users/79625/CLionProjects/homework3/sources/main.cpp
+../include/header.h
+C:/Users/79625/CLionProjects/homework3/include/header.h
+
+C:/Users/79625/CLionProjects/homework3/sources/number.cpp
+../include/header.h
+C:/Users/79625/CLionProjects/homework3/include/header.h
+
+C:/Users/79625/CLionProjects/homework3/sources/parenthesis.cpp
+../include/header.h
+C:/Users/79625/CLionProjects/homework3/include/header.h
+
